@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net6.0\key.txt" />
+      <None Include="bin\Debug\net6.0\message.txt" />
+      <None Include="bin\Debug\net6.0\messageS.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\decryptionHack.txt" />
+      <Content Include="bin\Debug\net6.0\encryptionHack.txt" />
+      <Content Include="bin\Debug\net6.0\keyHack.txt" />
+      <Content Include="bin\Debug\net6.0\keyVigner.txt" />
+      <Content Include="bin\Debug\net6.0\messageVigner.txt" />
+      <Content Include="bin\Debug\net6.0\messageSVigner.txt" />
+    </ItemGroup>
+
+</Project>
