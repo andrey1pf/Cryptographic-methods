@@ -1,0 +1,4 @@
+17 is prime
+206933 is prime
+78is composite
+206933is composite
